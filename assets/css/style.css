@@ -8,7 +8,7 @@
 }
 
 body {
-    margin: 0 auto;
+  padding-top: 30px;
 }
 
 table {
@@ -31,7 +31,7 @@ thead > tr > th > p:nth-child(2n) {
     font-size: 1.8rem;
 }
 
-thead > tr > th > p:first-child {
+thead > tr > th:first-child > p:first-child {
     text-transform: capitalize;
 }
 
@@ -85,7 +85,7 @@ tfoot > tr > th:last-child {
 
 button {
     background-color: #d3d3d3;
-    padding: 10px 25px;
+    padding: 13px 30px;
     text-transform: uppercase;
     border: 1px solid #555555;
     cursor: pointer;
